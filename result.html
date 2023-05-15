@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Analysis</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Alfa Slab One' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Alike Angular' rel='stylesheet'>
+
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"><link rel="stylesheet" href="./style.css">
+
+</head>
+<style>
+	body {
+    background-image: linear-gradient(135deg, #FAB2FF 10%, #1904E5 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Open Sans", sans-serif;
+    color: #333333;
+  }
+  
+  .box-form {
+    margin: 0 auto;
+    margin-top: 4%;
+    width: 75%;
+    background: #FFFFFF;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex: 1 1 100%;
+    align-items: stretch;
+    justify-content: space-between;
+    box-shadow: 0 0 20px 6px #090b6f85;
+  }
+  @media (max-width: 980px) {
+    .box-form {
+      flex-flow: wrap;
+      text-align: center;
+      align-content: center;
+      align-items: center;
+    }
+  }
+  .box-form div {
+    height: auto;
+  }
+  .box-form .left {
+    color: #FFFFFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://us.123rf.com/450wm/surfupvector/surfupvector2001/surfupvector200100134/137728883-personal-digital-security-defence-protection-from-hackers-scammers-flat-vector-illustration-data.jpg?ver=6");
+    overflow: hidden;
+  }
+  .box-form .left .overlay {
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    background: #5961f9ad;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  .box-form .left .overlay h1 {
+    font-size: 9vmax;
+    line-height: 1;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: 'Alfa Slab One';
+  }
+  .box-form .left .overlay span p {
+    margin-top: 30px;
+    font-weight: 900;
+  }
+  .box-form .left .overlay span a {
+    background: #4e6597;
+    color: #FFFFFF;
+    margin-top: 10px;
+    padding: 14px 50px;
+    border-radius: 100px;
+    display: inline-block;
+    box-shadow: 0 3px 6px 1px #042d4657;
+  }
+  .box-form .left .overlay span a:last-child {
+    background: #1dcaff;
+    margin-left: 30px;
+  }
+  .box-form .right {
+    padding: 30px;
+    overflow: hidden;
+  }
+  @media (max-width: 980px) {
+    .box-form .right {
+      width: 100%;
+    }
+  }
+  .box-form .right h4 {
+    font-size: 2vmax;
+    font-family: 'Alike Angular';
+    line-height: 0;
+  }
+  .box-form .right pre {
+    font-size: 25px;
+    color: #ce1515;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .box-form .right button {
+    float: right;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Alike Angular';
+    padding: 12px 35px;
+    border-radius: 50px;
+    display: inline-block;
+    border: 0;
+    outline: 0;
+    box-shadow: 0px 4px 20px 0px #49c628a6;
+    background-image: linear-gradient(135deg, #70F570 10%, #49C628 100%);
+  }
+  
+</style>
+<body>
+<!-- partial:index.partial.html -->
+<div class="box-form">
+	<div class="left">
+		<div class="overlay">
+		<h1>Result</h1>
+        <br><br><br><br><br><br></p>
+		</div>
+	</div>	
+		<div class="right">
+      <pre>{{ result }}</pre>
+    <pre>{{ output }}</pre> 
+    <pre>{{ output2 }}</pre>  
+    <pre>{{ output1 }}</pre>
+		       
+	</div>	
+</div>
+</body>
+</html>
+
